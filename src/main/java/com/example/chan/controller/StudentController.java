@@ -1,7 +1,7 @@
 package com.example.chan.controller;
 
 import com.example.chan.kafka.KafkaMessageProducer;
-import com.example.chan.kafka.KafkaProducer;
+import com.example.chan.kafka.config.KafkaProducer;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
