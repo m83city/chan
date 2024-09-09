@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "Student",
+  "namespace": "com.example.avro",
+  "fields": [
+    {"name": "id", "type": ["null", "long"], "default": null},
+    {"name": "name", "type": "string"},
+    {"name": "secondName", "type": "string"},
+    {"name": "age", "type": ["null", "int"], "default": null},
+    {"name": "course", "type": ["null", "int"], "default": null}
+  ]
+}
