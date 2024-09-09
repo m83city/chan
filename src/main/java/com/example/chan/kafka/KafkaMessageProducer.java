@@ -1,5 +1,6 @@
 package com.example.chan.kafka;
 
+import com.example.avro.Student;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
 
